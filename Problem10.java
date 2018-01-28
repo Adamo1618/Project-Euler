@@ -9,23 +9,12 @@ public class Problem10 {
 		// TODO Auto-generated method stub
 		int sum = 0;
 		ArrayList<Integer> list = new ArrayList<Integer>();
-		list = primesUpTo(10);
+		list = Primelist.primesUpTo(2000000);
 		for(int i = 0; i < list.size(); i++)
 		{
 			sum += list.get(i);
 		}
 		System.out.print(sum);
 
-	}
-	public static ArrayList<Integer> primesUpTo(int num)
-	{
-		int i = 2;
-		ArrayList<Integer> list = new ArrayList<Integer>();
-		while(i < num)
-		{
-			list = Primelist.addPrimeToList(list, i);
-			i++;
-		}
-		return list;
 	}
 }
