@@ -1,0 +1,28 @@
+Can be solved with pen and paper.
+
+Prime factors: 
+2 = 2
+3 = 3
+4 = 2 * 2
+5 = 5
+6 = 2 * 3
+7 = 7
+8 = 2 * 2 * 2
+9 = 3 * 3
+10 = 2 * 5
+11 = 11
+12 = 2 * 2 * 3
+13 = 13
+14 = 2 * 7
+15 = 3 * 5
+16 = 2 * 2 * 2 * 2
+17 = 17
+18 = 3 * 3 * 2
+19 = 19
+20 = 2 * 2 * 5
+
+The lowest number divisible by all number from 1 through 10 would therefore be 2 * 2 * 2 * 3 * 3 * 5 * 7 = 2520.
+This is because the highest number of 2's required is three to get eight, the highest number of 3's is two to get nine etc.
+
+For all the numbers from 1 through 20:
+2 * 2 * 2 * 2 * 3 * 3 * 5 * 5 * 7 * 11 * 13 * 17 * 19 = 1163962800
