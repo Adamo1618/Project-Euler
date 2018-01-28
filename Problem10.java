@@ -7,6 +7,7 @@ public class Problem10 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//Solved
 		int sum = 0;
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		list = Primelist.primesUpTo(2000000);
