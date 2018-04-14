@@ -1,7 +1,7 @@
 package euler;
 
 import java.util.ArrayList;
-import euler.Primelist;
+import euler.Primitives;
 
 public class Problem3 {
 
@@ -9,9 +9,9 @@ public class Problem3 {
 		// TODO Auto-generated method stub
 		// Solved
 		
-		//long n = 13195;
+		//long n = 13195L;
 		long n = 600851475143L;
-		ArrayList<Integer> list = Primelist.primesUpTo((int)Math.sqrt(n));
+		ArrayList<Integer> list = Primitives.primesUpTo((int)Math.sqrt(n));
 		ArrayList<Integer> list2 = new ArrayList<Integer>();
 		for(int i = 0; i < list.size(); i++)
 		{

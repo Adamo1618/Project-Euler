@@ -3,9 +3,9 @@ package euler;
 import euler.Primitives;
 
 public class Problem12 {
-	// Solved
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Solved
 		int numberofdivisors = 0;
 		int number = 0;
 		int i = 1;

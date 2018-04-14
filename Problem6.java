@@ -3,7 +3,6 @@ package euler;
 public class Problem6 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//Solved
 		int n = 100;
 		System.out.print(squareOfSum(n) - sumOfSquares(n));

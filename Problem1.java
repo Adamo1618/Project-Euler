@@ -5,7 +5,7 @@ public class Problem1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Solved
-		int n=1000;
+		int n = 1000;
 		int sum = 0;
 		int i = 1;
 		while(i * 3 < n)

@@ -12,7 +12,7 @@ public class Problem4 {
 			for (int j = i; j < 1000; j++)
 			{
 				num = i * j;
-				if(isPalindrome(num))
+				if(Primitives.isPalindrome(num))
 				{
 					list.add(num);
 				}
@@ -25,23 +25,4 @@ public class Problem4 {
 		}
 		System.out.print("\n" + num);
 	}
-	
-	public static boolean isPalindrome(int number)
-	{
-		int index = 1;
-		int numberofdigits = (int)Math.log10(number);
-		boolean samedigits = true;
-		while(number / (int)Math.pow(10, index) > 0)
-		{
-			if(number / (int)Math.pow(10, numberofdigits - index + 1) % 10
-					!= number % (int)Math.pow(10, index) / (int)Math.pow(10, index - 1))
-			{
-				samedigits = false;
-				break;
-			}
-			index++;
-		}
-		return samedigits;
-	}
-
 }

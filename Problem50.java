@@ -16,7 +16,7 @@ public class Problem50 {
 		int lowerbound = 0, upperbound = 1;
 		int targetprime = 0;
 		// Prime number, number of consecutive primes
-		int[] max = {2, list.get(2)};
+		int[] max = {2, list.get(2), 0};
 		for (int i = 2; i < list.size(); i++)
 		{
 			targetprime = list.get(i);
@@ -43,6 +43,7 @@ public class Problem50 {
 						{
 							max[0] = upperbound - lowerbound + 1;
 							max[1] = targetprime;
+							max[2] = lowerbound;
 						}
 						sum -= list.get(lowerbound);
 						lowerbound++;

@@ -3,7 +3,6 @@ package euler;
 public class Problem9 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//Solved
 		for(int c = 3; c <= 997; c++)
 		{
